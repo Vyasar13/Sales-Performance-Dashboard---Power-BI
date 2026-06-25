@@ -160,3 +160,24 @@ A donut chart represents cost distribution among retailer types:
 ---
 
 # 📁 Project Structure
+
+Sales-Dashboard/
+│
+├── Sales_Dashboard.pbix
+├── Dataset.xlsx
+├── README.md
+└── dashboard.png
+
+
+---
+
+# 👨‍💻 Author
+
+**VYASAR**  
+B.Tech Information Technology
+
+---
+
+## ⭐ Project Status
+
+Completed ✅
