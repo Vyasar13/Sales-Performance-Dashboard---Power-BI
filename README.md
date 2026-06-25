@@ -2,43 +2,45 @@
 
 ## 📌 Project Overview
 
-This project is an interactive **Sales Performance Dashboard** developed using **Microsoft Power BI**.  
-The dashboard provides business insights by analyzing revenue, profit, cost, product performance, retailer performance, and geographical sales distribution.
+This project is an interactive **Sales Performance Dashboard** created using **Microsoft Power BI**.
 
-The main objective of this project is to help businesses understand sales trends and make data-driven decisions.
+The dashboard provides business insights by analyzing revenue, profit, product performance, retailer performance, cost analysis, and country-wise sales trends.
+
+The purpose of this project is to transform raw sales data into meaningful visual insights that help businesses make data-driven decisions.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Analyze overall business revenue and profit performance
-- Track total sales quantity and cost
+- Analyze overall sales performance
+- Track total revenue, profit, cost, and quantity sold
 - Identify top-performing product categories
-- Compare revenue across countries
-- Analyze retailer-wise cost distribution
-- Understand sales trends over time
-- Visualize retailer locations using map analysis
+- Compare revenue across different countries
+- Analyze retailer-wise cost contribution
+- Understand sales and profit trends over time
+- Visualize retailer locations geographically
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-- **Microsoft Power BI**
-- **Power Query** (Data Cleaning & Transformation)
-- **DAX (Data Analysis Expressions)**
-- **Excel / CSV Dataset**
+- Microsoft Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Excel Dataset
 
 ---
 
-## 📂 Dataset Information
+# 📂 Dataset Details
 
-The dataset contains sales transaction details including:
+The dataset contains sales transaction information:
 
 - Transaction Date
 - Product Line
 - Product Type
 - Country
 - Retailer Type
+- Retailer City
 - Revenue
 - Cost
 - Profit
@@ -48,53 +50,48 @@ The dataset contains sales transaction details including:
 
 # 📈 Dashboard Features
 
-## 1. KPI Cards
+## 1. KPI Overview
 
-The dashboard displays key business metrics:
+The dashboard displays important business metrics:
 
-| KPI | Value |
+| Metric | Value |
 |---|---|
 | 💰 Total Revenue | $274.75M |
 | 📈 Total Profit | $99.48M |
 | 📦 Quantity Sold | $3.07M |
 | 💵 Total Cost | $175.26M |
 
-These KPIs provide a quick overview of overall business performance.
-
 ---
 
 ## 2. Product Line Analysis
 
-Users can filter sales based on product categories:
+The dashboard provides filtering options for product categories:
 
 - Camping Equipment
 - Mountaineering Equipment
 - Outdoor Protection
 
-This helps identify which product line contributes more revenue.
+This helps identify which product line generates higher revenue.
 
 ---
 
 ## 3. Revenue & Profit Trend Analysis
 
-A line chart is created to analyze:
+A time-series analysis is created to monitor:
 
-- Monthly revenue changes
-- Monthly profit changes
-- Sales growth patterns over time
+- Monthly Revenue
+- Monthly Profit
+- Sales performance changes over time
 
-This helps identify peak and low-performing periods.
+This helps identify high-performing and low-performing periods.
 
 ---
 
 ## 4. Retailer City Cost Analysis
 
-A map visualization shows:
+A map visualization shows cost distribution by retailer city.
 
-- Retailer locations
-- Cost incurred by different cities
-
-Major cities analyzed include:
+Cities analyzed include:
 
 - Los Angeles
 - New York City
@@ -107,13 +104,13 @@ Major cities analyzed include:
 
 ## 5. Country-wise Product Revenue Analysis
 
-A stacked bar chart compares revenue contribution from:
+Revenue comparison is performed across:
 
 - Canada
 - China
 - United States
 
-Across different product types:
+Product categories analyzed:
 
 - Tents
 - Sleeping Bags
@@ -123,7 +120,7 @@ Across different product types:
 
 ## 6. Retailer Type Cost Analysis
 
-A donut chart represents cost distribution among retailer types:
+Cost contribution is analyzed by retailer type:
 
 - Outdoor Shop
 - Sports Store
@@ -143,38 +140,52 @@ A donut chart represents cost distribution among retailer types:
 # 🔍 Key Insights
 
 - Camping Equipment contributes significantly to total revenue.
-- United States generates high revenue compared to other countries.
-- Outdoor Shops and Sports Stores account for major cost contribution.
-- Revenue and profit show monthly variations throughout the year.
-- Certain retailer cities have higher operational costs.
-
----
-
-# 🚀 How to Use
-
-1. Download the `.pbix` file.
-2. Open it using Microsoft Power BI Desktop.
-3. Refresh the dataset if required.
-4. Use filters and slicers to explore insights.
+- The United States shows strong revenue contribution.
+- Outdoor Shops and Sports Stores represent major cost segments.
+- Revenue and profit fluctuate throughout the timeline.
+- Retailer locations have different cost distributions.
 
 ---
 
 # 📁 Project Structure
 
-Sales-Dashboard/
+```
+Sales-Performance-Dashboard/
+│
+├── README.md
 │
 ├── Sales_Dashboard.pbix
+│
 ├── Dataset.xlsx
-├── README.md
+│
 └── dashboard.png
+```
 
+---
+
+# 🚀 How to Run the Project
+
+1. Download or clone this repository.
+
+2. Open:
+
+```
+Sales_Dashboard.pbix
+```
+
+using **Microsoft Power BI Desktop**.
+
+3. Refresh the dataset if required.
+
+4. Use slicers and filters to explore dashboard insights.
 
 ---
 
 # 👨‍💻 Author
 
-**VYASAR**  
-B.Tech Information Technology
+**VYASAR P B**
+
+🎓 B.Tech Information Technology
 
 ---
 
